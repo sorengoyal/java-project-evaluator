@@ -1,6 +1,6 @@
 from source.projectEvaluator import *
 import sys
 
-folderName = sys.arv[1]
+folderName = 'submissions/Project05'#sys.argv[1]
 unzip(folderName)
  
