@@ -7,6 +7,7 @@ public class Project05Junit {
 
    @Test
    public void testAResult() {
+      System.err.println("In A Result");
       Project05 project = new Project05();
       String input = "50\n20\n1\n0\n";
       InputStream in = new ByteArrayInputStream(input.getBytes());
@@ -15,11 +16,12 @@ public class Project05Junit {
       System.setOut(new PrintStream(out));
       project.main(new String[0]);
       //System.err.println(out.toString());
-      assertTrue(out.toString().indexOf("That was amazing!") != -1);
+      assertTrue(out.toString().indexOf("That was amazing") != -1);
       
    }
    @Test
    public void testOutOfRange() {
+      System.err.println("In out of Range");
       Project05 project = new Project05();
       String input = "101\n-1\n1\n0\n";
       InputStream in = new ByteArrayInputStream(input.getBytes());
