@@ -49,7 +49,7 @@ def unzip(projectName):
         ext = tokens[1]
         if(ext == 'java'):
             os.mkdir(studentName)
-            bashCall('cp ' + file + ' ' + studentName + '/' + projectName+'.java')
+            bashCall('cp ' + file + ' ' + studentName + '/' +'Project.java')
             invalids.append(studentName)
         elif(ext == 'zip'):
             os.mkdir(studentName)
@@ -112,7 +112,7 @@ def processSourceFiles(projectName):
                     print(line)
                 sys.exit()
             newCode = modifyCode(originalCode)
-            with open('submissions/' + name + '/' + projectName + '.java', 'w') as f:
+            with open('submissions/' + name + '/' + 'Project.java', 'w') as f:
                 f.writelines(newCode)
             print('Successfully processed file for ' + name)
             newNameList.append(name + '\n')
@@ -134,12 +134,12 @@ def runCodes(projectName):
         names = [line.strip() for line in names]
         for name in names:
             os.chdir(root + '/' + submissions + '/' + projectName + '/' + submissions)
-            val = bashCall('javac ' + name + '/' + projectName + '.java', lambda:())
+            val = bashCall('javac ' + name + '/' + 'Project.java', lambda:())
             if(val != 0):
                 scores.write(name + ' 0 Could not Compile\n')
                 print(name + ' 0 Could not Compile')
                 continue
-            val = bashCall('cp ' + name + '/' + projectName + '.class ../../../junit-tests/'+ projectName + '/', lambda:())
+            val = bashCall('cp ' + name + '/' + 'Project.class ../../../junit-tests/'+ projectName + '/', lambda:())
             if(val != 0):
                 scores.write(name + ' 0 Could not copy\n')
                 print(name + ' 0 Could not copy')

@@ -1,5 +1,5 @@
 def modifyCode(code):
-    newcode = renameClass(code, 'Project05')
+    newcode = renameClass(code, 'Project')
     newcode = replaceRandom(newcode, '0')
     newcode = removePackageLine(newcode)
     return newcode

@@ -1,0 +1,92 @@
+ranesaurav Could not find a .java filebosworthpeter 10 
+calmesalex 10 
+eifelnicholas 7 quitsOnBlankLine(ProjectJunit): String index out of range: 0
+detectValidUPC(ProjectJunit): 
+heck digit should be 0
+Check digit is 2
+UPC is not valid
+
+detectWrongLength(ProjectJunit): String index out of range: 11
+
+fuemily 10 
+gattnicole 10 
+geyeraaron 10 
+hajiatong 7 detectValidUPC(ProjectJunit): 
+mpty line read - Goodbye!
+detectWrongLength(ProjectJunit): 
+ Empty line read - Goodbye!
+detectInvalidUPC(ProjectJunit): 
+mpty line read - Goodbye!
+
+harendzamax 8 detectValidUPC(ProjectJunit): String index out of range: -1
+detectWrongLength(ProjectJunit): 
+ 
+
+holdsworthmadison 8 quitsOnBlankLine(ProjectJunit): null
+detectWrongLength(ProjectJunit): 
+  3
+UPC is not valid
+
+
+huangjason 10 
+hurenzhi 9 detectWrongLength(ProjectJunit): No line found
+
+hustonthomas 10 
+kingeryzachary 10 
+krasnoschlikalex 10 
+laihangyi 8 detectValidUPC(ProjectJunit): 
+oodbye!
+
+detectWrongLength(ProjectJunit): No line found
+
+lawalvin 10 
+liangmelissa 9 quitsOnBlankLine(ProjectJunit): String index out of range: -1
+
+maaggarrett 7 detectValidUPC(ProjectJunit): No line found
+detectWrongLength(ProjectJunit): No line found
+detectInvalidUPC(ProjectJunit): No line found
+
+mapisjackak 9 detectWrongLength(ProjectJunit): String index out of range: 11
+
+mitchellshandon 10 
+moraleschristian 10 
+noblejesse 9 detectWrongLength(ProjectJunit): String index out of range: 0
+
+penaisabel 10 
+rizzofrank 10 
+stewartmadeline 9 detectWrongLength(ProjectJunit): No line found
+
+sucalditoalec 6 quitsOnBlankLine(ProjectJunit): null
+detectValidUPC(ProjectJunit): For input string: "036000291452"
+detectWrongLength(ProjectJunit): For input string: "03600029145"
+detectInvalidUPC(ProjectJunit): For input string: "036000291453"
+
+wangshawn 10 
+wehmerelise 9 detectWrongLength(ProjectJunit): 
+ 5
+UPC is not valid
+
+
+whiteheadlauren 8 quitsOnBlankLine(ProjectJunit): null
+detectWrongLength(ProjectJunit): 
+ 5
+UPC is not valid
+
+
+worlineashley 9 detectWrongLength(ProjectJunit): String index out of range: 11
+
+yatesjessica 8 detectValidUPC(ProjectJunit): 
+Goodbye!
+
+detectWrongLength(ProjectJunit): 
+ Error! UPC must have exactly 12 digit.
+
+
+yuschakniko 10 
+zhangshiyao 6 quitsOnBlankLine(ProjectJunit): null
+detectValidUPC(ProjectJunit): For input string: "036000291452"
+detectWrongLength(ProjectJunit): For input string: "03600029145"
+detectInvalidUPC(ProjectJunit): For input string: "036000291453"
+
+zhaoqi 9 detectWrongLength(ProjectJunit): String index out of range: 11
+

@@ -1,0 +1,3 @@
+7 detectValidUPC(ProjectJunit): No line found
+detectWrongLength(ProjectJunit): No line found
+detectInvalidUPC(ProjectJunit): No line found
